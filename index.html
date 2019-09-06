@@ -96,7 +96,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weixiao173.github.io/2019/09/02/带宽和网速/" data-id="ck025yv0v0002psu7n1c4f527" class="article-share-link">Share</a>
+      <a data-url="https://weixiao173.github.io/2019/09/02/带宽和网速/" data-id="ck07yi87k0007mou7s0bcz2t2" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Wangwb_Blog/tags/Band-Width-Network-speed/">Band Width & Network speed</a></li></ul>
@@ -130,13 +130,18 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h3 id="前言：UE要在LTE-EPC上进行数据业务，首先需要注册到EPC网络上。4G终端开机后注册网络发生的第一个流程就是附着流程（Attach-Procedure）。3GPP协议对附着流程的描述有26步。由于附着流程如此重要，下文将完整罗列一下4G网络终端的附着流程。"><a href="#前言：UE要在LTE-EPC上进行数据业务，首先需要注册到EPC网络上。4G终端开机后注册网络发生的第一个流程就是附着流程（Attach-Procedure）。3GPP协议对附着流程的描述有26步。由于附着流程如此重要，下文将完整罗列一下4G网络终端的附着流程。" class="headerlink" title="前言：UE要在LTE/EPC上进行数据业务，首先需要注册到EPC网络上。4G终端开机后注册网络发生的第一个流程就是附着流程（Attach Procedure）。3GPP协议对附着流程的描述有26步。由于附着流程如此重要，下文将完整罗列一下4G网络终端的附着流程。"></a>前言：UE要在<strong>LTE/EPC</strong>上进行数据业务，首先需要注册到EPC网络上。4G终端开机后注册网络发生的第一个流程就是附着流程（Attach Procedure）。3GPP协议对附着流程的描述有26步。由于附着流程如此重要，下文将完整罗列一下4G网络终端的附着流程。</h3><h2 id="一、"><a href="#一、" class="headerlink" title="一、"></a>一、</h2><h3 id="1-IMSI-International-Mobile-Subscriber-Identity-国际移动用户识别码"><a href="#1-IMSI-International-Mobile-Subscriber-Identity-国际移动用户识别码" class="headerlink" title="1.IMSI(International Mobile Subscriber Identity)国际移动用户识别码"></a>1.IMSI(International Mobile Subscriber Identity)国际移动用户识别码</h3><h3 id="2-TMSI-Temary-Mobile-Subscriber-Identity-临时移动用户识别码"><a href="#2-TMSI-Temary-Mobile-Subscriber-Identity-临时移动用户识别码" class="headerlink" title="2.TMSI(Temary Mobile Subscriber Identity)临时移动用户识别码"></a>2.TMSI(Temary Mobile Subscriber Identity)临时移动用户识别码</h3><h3 id="3-GUMMEI-Globally-Unique-MME-Identifier-标识用来唯一标识一个MME网元"><a href="#3-GUMMEI-Globally-Unique-MME-Identifier-标识用来唯一标识一个MME网元" class="headerlink" title="3.GUMMEI(Globally Unique MME Identifier)标识用来唯一标识一个MME网元"></a>3.GUMMEI(Globally Unique MME Identifier)标识用来唯一标识一个MME网元</h3><h3 id="4-GUTI-GUMMEI-M-TMSI-用于EPS系统中在不暴露EU永久性标识的同时，为UE提供一个明确的身份标识。在网络与UE进行信令交互时，网络与UE可以使用GUTI建立用户标识。"><a href="#4-GUTI-GUMMEI-M-TMSI-用于EPS系统中在不暴露EU永久性标识的同时，为UE提供一个明确的身份标识。在网络与UE进行信令交互时，网络与UE可以使用GUTI建立用户标识。" class="headerlink" title="4.GUTI(GUMMEI+M-TMSI)用于EPS系统中在不暴露EU永久性标识的同时，为UE提供一个明确的身份标识。在网络与UE进行信令交互时，网络与UE可以使用GUTI建立用户标识。"></a>4.GUTI(GUMMEI+M-TMSI)用于EPS系统中在不暴露EU永久性标识的同时，为UE提供一个明确的身份标识。在网络与UE进行信令交互时，网络与UE可以使用GUTI建立用户标识。</h3><h3 id="5-RRC-Radio-Resource-Control-无线资源控制"><a href="#5-RRC-Radio-Resource-Control-无线资源控制" class="headerlink" title="5.RRC(Radio Resource Control)无线资源控制"></a>5.RRC(Radio Resource Control)无线资源控制</h3><h3 id="6-鉴权：authentication是指验证用户是否拥有访问系统（网络）的权力"><a href="#6-鉴权：authentication是指验证用户是否拥有访问系统（网络）的权力" class="headerlink" title="6.鉴权：authentication是指验证用户是否拥有访问系统（网络）的权力"></a>6.鉴权：authentication是指验证用户是否拥有访问系统（网络）的权力</h3><h3 id="7-Ciphered-Options-Transfer加密传输"><a href="#7-Ciphered-Options-Transfer加密传输" class="headerlink" title="7.Ciphered Options Transfer加密传输"></a>7.Ciphered Options Transfer加密传输</h3><h3 id="8-PDN-Public-Data-Network-公用数据网"><a href="#8-PDN-Public-Data-Network-公用数据网" class="headerlink" title="8.PDN(Public Data Network)公用数据网"></a>8.PDN(Public Data Network)公用数据网</h3><h2 id="二、附着流程图"><a href="#二、附着流程图" class="headerlink" title="二、附着流程图"></a>二、附着流程图</h2><h3 id="1-附着流程"><a href="#1-附着流程" class="headerlink" title="1.附着流程"></a>1.附着流程</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line">Title: 4G网络终端附着完整流程图    </span><br><span class="line">UE-&gt;eNodeB: 1.Attach Request</span><br><span class="line">eNodeB-&gt;new MME: 2.Attach Request</span><br><span class="line">new MME--&gt;Old MME/SGSN: 3.Identification Request</span><br><span class="line">Old MME/SGSN--&gt;new MME: 3. Identification Response</span><br><span class="line">new MME--&gt;&gt;UE: 4.Identity Request</span><br><span class="line">UE--&gt;&gt;new MME: 4.Identity Response</span><br><span class="line">new MME--&gt;&gt;UE: 5a.Authentication(身份验证)</span><br><span class="line">UE--&gt;&gt;new MME: 5a.Security(安全)</span><br><span class="line">new MME--&gt;&gt;UE: 5b.Identity Request</span><br><span class="line">UE--&gt;&gt;new MME: 5b.Identity Response</span><br><span class="line">new MME--&gt;&gt;UE: 6.Ciphered Options Request</span><br><span class="line">UE--&gt;&gt;new MME: 6.Ciphered Options Response</span><br><span class="line">new MME--&gt;Serving GW: 7.Delete Session Request</span><br><span class="line">Serving GW--&gt;PDN GW: 7.Delete Session Request</span><br><span class="line">Serving GW--&gt;new MME: 7.Delete Session Request</span><br><span class="line">PDN GW--&gt;Serving GW: 7.Delete Session Request</span><br><span class="line">PDN GW--&gt;PCRF: 7.PCRF Initiated </span><br><span class="line">PCRF--&gt;PDN GW: 7.IP-CAN Session Termination</span><br><span class="line">new MME--&gt;HSS: 8.Update Location Request</span><br><span class="line">HSS--&gt;Old MME/SGSN: 9.Cancel Location Request</span><br><span class="line">Old MME/SGSN--&gt;HSS: 9.Cancel Location Ack </span><br><span class="line">Old MME/SGSN--&gt;PDN GW: 10.Delete Sessionn Request</span><br><span class="line">PDN GW--&gt;Old MME/SGSN: 10.Delete Sessionn Response</span><br><span class="line">HSS--&gt;new MME: 11.Update Location Ack</span><br><span class="line">new MME-&gt;Serving GW: 12.Create Session Request</span><br><span class="line">Serving GW-&gt;PDN GW: 13.Create Session Request</span><br><span class="line">PDN GW--&gt;PCRF: 14.PCRF Initiated </span><br><span class="line">PCRF--&gt;PDN GW: 14.IP-CAN Session Establishment/Modification</span><br><span class="line">PDN GW--&gt;Serving GW: *.First Downlink Date</span><br><span class="line">PDN GW-&gt;Serving GW: 15.Create Sesssion Response</span><br><span class="line">Serving GW-&gt;new MME: 16.Create Sesssion Response</span><br><span class="line">new MME-&gt;eNodeB: 17.Initial Context Setup Request/Attach Accept</span><br><span class="line">eNodeB-&gt;UE: 18.RRC Connection Reconfiguration(重构)</span><br><span class="line">UE-&gt;eNodeB: 19.RRC Connection Reconfiguration Complete</span><br><span class="line">eNodeB-&gt;new MME: 20.Initial Context Setup Response</span><br><span class="line">UE-&gt;eNodeB: 21.Direct Transfer消息直传</span><br><span class="line">eNodeB-&gt;new MME: 22.Attach Complete</span><br><span class="line">UE--&gt;&gt;Serving GW:First Uplink Data</span><br><span class="line">Serving GW--&gt;&gt;PDN GW:First Uplink Data</span><br><span class="line">new MME-&gt;Serving GW: 23.Modify Bearer(承载) Request</span><br><span class="line">Serving GW--&gt;&gt;PDN GW:23a.Modify Bearer Request</span><br><span class="line">PDN GW--&gt;&gt;Serving GW:23b.Modify Bearer Response</span><br><span class="line">Serving GW-&gt;new MME: 24.Modify Bearer Response</span><br><span class="line">PDN GW--&gt;&gt;Serving GW:First Downlink Data</span><br><span class="line">Serving GW--&gt;&gt;UE:First Downlink Data</span><br><span class="line">new MME--&gt;&gt;HSS: 25.Notify(正式通报) Request</span><br><span class="line">HSS--&gt;new MME:26.Notify Response</span><br></pre></td></tr></table></figure>
+
+<h3 id="协议详解"><a href="#协议详解" class="headerlink" title="协议详解"></a>协议详解</h3><p>（1）UE向eNodeB发送Attach Request(附着请求)消息。<br>（2）eNodeB根据Attach Request中携带的信息，选择可用的MME（Old MME），或者向New MME转发Attach Request。<br>（3）UE通过GUTI标识自己后，且Detach(分离)后从不同的MME（new MME）附着。则New MME向Old MME发送Identification Request（身份认证请求）消息，请求用户的IMSI。<br>（4）如果old MME和new MME中均没有UE消息，则new MME向UE发送一个Identity Request消息请求用户IMSI。<br>（5）根据鉴权策略决定是否需要鉴权。<br>&ensp;&ensp;&ensp;&ensp;5.1 Attach Request消息未保证完整性或完整性检查失败，必须进行鉴权。<br>&ensp;&ensp;&ensp;&ensp;5.2 MME根据返回结果决定继续附着流程还是拒绝UE的附着请求。<br>（6）MME向UE获取PCO和APN（Access Point Name）接入点名称等Ciphered Options（加密选项）<br>（7）如果new MME中存在该UE激活态的承载上下文，则new MME向相关网管发送消息删除承载上下文。<br>（8）如果UE Detach(分离)后从不同MME附着，MME中没有该UE的合法签约上下文，则MME向HSS发送 Update Location Request（位置更新请求）消息。<br>（9）HHS向old MME发送Cancel Location Request（终止定位请求）消息。<br>&ensp;&ensp;&ensp;&ensp;old MME向HSS响应Cancel Location Answer,并删除MME上下文和承载上下文。<br>（10）如old MME中存在该UE激活态的承载上下文，则old MME向相关网管发送消息删除承载上下文。<br>（11）HSS向new MME响应Update Location Answer消息<br>&ensp;&ensp;&ensp;&ensp;<strong>如果UE使用未签约的APN接入，或者HSS拒绝了Update Location请求，则new MME拒绝UE的附着请求。</strong><br>（12）new MME根据Attach Request消息中携带的APN进行默认承载激活，否则使用签约的默认APN进行默认承载激活。MME根据<strong>TAI(跟踪区列表)获取SGW列表，根据APN获取PGW列表，</strong>再根据优先级和拓扑优先级选取一对SGW和PGW来建立默认承载。并且为默认承载分配一个EPS承载ID。<strong>然后向S-GW发送Create Session Request（创建会话请求）。</strong><br>（13）S-GW在EPS承载列表中创建一个新的EPS承载，<strong>根据12中携带的“PDN GW address”向P-GW发送Create Session Request（创建会话请求）。</strong><br>&ensp;&ensp;&ensp;&ensp;<strong>此后，S-GW将缓存所有从P-GW而来的下行数据包。</strong><br>（14）P-GW配置。P-GW与PCRF建立承载。<br>（15）P-GW在EPS承载上下文列表中创建一个新的EPS承载，并产生一个<strong>Charging ID(收费ID)。P-GW在S-GW和PDN间转发用户面的PDU（Protocol Data Unit）协议数据单元，并开始计费。</strong> P-GW向S-GW返回Create Session Response消息。<br>（16）S-GW向MME返回Create Session Response。<br>（17）new MME向eNodeB发送Attach Accept消息，请求建立无线资源。<br>（18）eNodeB向UE发送RRC Connection Reconfiguration消息请求分配空口资源。<strong>消息携带EPS无线承载ID，同时Attach Accept也通过本消息带给UE。</strong><br>（19）UE向eNodeB发送RRC Connection Reconfiguration Complete消息。<br>（20）eNodeB向new MME发送Initial Context Setup Response消息，携带<strong>eNodeB的TEID以及用于S1-U下行传输的地址。</strong><br>（21）UE向eNodeB发送Direct Transfer消息，消息携带<strong>Attach Complete消息。</strong><br>（22）eNodeB向new MME转发Attach Complete消息。<br>&ensp;&ensp;&ensp;&ensp;<strong>在发送Attach Complete消息及UE获取了一个PDN地址后，UE可以向联通了S-GW和P-GW的eNodeB发送上行数据包了。</strong><br>（23）new MME向S-GW发送Modify（修改） Bearer(承载) Request。<br>（24）S-GW向new MME回复Modify（修改） Bearer(承载) Response。消息包含：<strong>EPS Bearer Identity。</strong><br>&ensp;&ensp;&ensp;&ensp;S-GW已经收到eNodeB的TEID，可以发送缓存的下行数据包了。<br>（25）MME向HSS发送Notify（正式通报） Request消息，消息携带<strong>APN和P-GW Identity,消息还携带P-GW所属的PLMN信息。</strong><br>（26）HSS存储<strong>APN和PGW的标识对</strong>并向MME发送Notify Response消息。</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weixiao173.github.io/2019/08/30/移动用户追踪（一）—EPC网络的附着流程/" data-id="ck025yv100005psu7zslksijv" class="article-share-link">Share</a>
+      <a data-url="https://weixiao173.github.io/2019/08/30/移动用户追踪（一）—EPC网络的附着流程/" data-id="ck07yi87j0006mou7k70nsmnb" class="article-share-link">Share</a>
       
       
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Wangwb_Blog/tags/核心网学习笔记-2/">核心网学习笔记-2</a></li></ul>
+
     </footer>
   </div>
   
@@ -179,7 +184,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weixiao173.github.io/2019/08/29/SecureCRT的安装和使用/" data-id="ck025yv0z0004psu7h2dlsomm" class="article-share-link">Share</a>
+      <a data-url="https://weixiao173.github.io/2019/08/29/SecureCRT的安装和使用/" data-id="ck07yi8770002mou78jfy75ru" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Wangwb_Blog/tags/SecureCRT的安装和使用/">SecureCRT的安装和使用</a></li></ul>
@@ -233,7 +238,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weixiao173.github.io/2019/08/19/EPC网络基本流程/" data-id="ck025yv0s0001psu7gi7xfzvr" class="article-share-link">Share</a>
+      <a data-url="https://weixiao173.github.io/2019/08/19/EPC网络基本流程/" data-id="ck07yi87b0003mou7dmuji92o" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Wangwb_Blog/tags/EPC网络基本流程/">EPC网络基本流程</a></li></ul>
@@ -277,7 +282,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weixiao173.github.io/2019/08/14/核心网EPC学习笔记-1/" data-id="ck025yv1i000apsu7a7z8r0gy" class="article-share-link">Share</a>
+      <a data-url="https://weixiao173.github.io/2019/08/14/核心网EPC学习笔记-1/" data-id="ck07yi87h0005mou7a8bc5p8f" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/Wangwb_Blog/tags/学习笔记/">学习笔记</a></li></ul>
@@ -320,7 +325,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weixiao173.github.io/2019/08/14/利用Github搭建个人博客/" data-id="ck025yv1f0009psu7f10wy06g" class="article-share-link">Share</a>
+      <a data-url="https://weixiao173.github.io/2019/08/14/利用Github搭建个人博客/" data-id="ck07yi86z0000mou77jlv1ovl" class="article-share-link">Share</a>
       
       
     </footer>
@@ -369,7 +374,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://weixiao173.github.io/2019/08/13/hello-world/" data-id="ck025yv0n0000psu7x3dhtdad" class="article-share-link">Share</a>
+      <a data-url="https://weixiao173.github.io/2019/08/13/hello-world/" data-id="ck07yi8750001mou7boz4se43" class="article-share-link">Share</a>
       
       
     </footer>
@@ -392,7 +397,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/Band-Width-Network-speed/">Band Width & Network speed</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/EPC网络基本流程/">EPC网络基本流程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/SecureCRT的安装和使用/">SecureCRT的安装和使用</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/学习笔记/">学习笔记</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/Band-Width-Network-speed/">Band Width & Network speed</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/EPC网络基本流程/">EPC网络基本流程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/SecureCRT的安装和使用/">SecureCRT的安装和使用</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/学习笔记/">学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/Wangwb_Blog/tags/核心网学习笔记-2/">核心网学习笔记-2</a></li></ul>
     </div>
   </div>
 
@@ -402,7 +407,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/Wangwb_Blog/tags/Band-Width-Network-speed/" style="font-size: 10px;">Band Width & Network speed</a> <a href="/Wangwb_Blog/tags/EPC网络基本流程/" style="font-size: 10px;">EPC网络基本流程</a> <a href="/Wangwb_Blog/tags/SecureCRT的安装和使用/" style="font-size: 10px;">SecureCRT的安装和使用</a> <a href="/Wangwb_Blog/tags/学习笔记/" style="font-size: 10px;">学习笔记</a>
+      <a href="/Wangwb_Blog/tags/Band-Width-Network-speed/" style="font-size: 10px;">Band Width & Network speed</a> <a href="/Wangwb_Blog/tags/EPC网络基本流程/" style="font-size: 10px;">EPC网络基本流程</a> <a href="/Wangwb_Blog/tags/SecureCRT的安装和使用/" style="font-size: 10px;">SecureCRT的安装和使用</a> <a href="/Wangwb_Blog/tags/学习笔记/" style="font-size: 10px;">学习笔记</a> <a href="/Wangwb_Blog/tags/核心网学习笔记-2/" style="font-size: 10px;">核心网学习笔记-2</a>
     </div>
   </div>
 
